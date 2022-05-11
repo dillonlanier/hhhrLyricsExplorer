@@ -574,6 +574,6 @@ class Genius(_API):
 # To get an album's lyrics:
 #
 # Get the token by signing in on the Genius website https://genius.com/api-clients
-# client_access_token = 'YOUR_TOKEN_HERE'
-# api = Genius(client_access_token)
-# Genius.search_album(api, "DJ Khaled", "Grateful")
+client_access_token = OboPhH8_Z1DDxu-IbftB8WqhW0kYvj6eMbLQusCVX_PSCPcmXkecIc3cAACMwfcS
+api = Genius(client_access_token)
+Genius.search_album(api, "DJ Khaled", "Grateful")
